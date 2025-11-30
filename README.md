@@ -1,5 +1,5 @@
 
-<h1 align="center">Hi <img width="35" src="https://user-images.githubusercontent.com/74038190/214644152-52f47eb3-5e31-4f47-8758-05c9468d5596.gif"/>, I'm Miryami </h1>
+<h1 align="center">Hi <img width="35" src="https://user-images.githubusercontent.com/74038190/214644152-52f47eb3-5e31-4f47-8758-05c9468d5596.gif"/>, I'm Miryam </h1>
 Welcome to my GitHub corner — where logic meets creativity 
 I'm a passionate software developer who loves building meaningful projects, learning cool stuff, and writing clean, elegant code.
 
