@@ -1,7 +1,7 @@
 # Hi, I'm Miryam 👋
 
 **Fullstack & Mobile Developer** with hands-on production experience.
-Currently building features end-to-end across **web (React, ASP.NET Core)** and **mobile (Flutter)** — and integrating **GPT-4** into real products.
+Currently building features end-to-end across **web (React, ASP.NET Core)** and **mobile (Flutter)** - and integrating **GPT** into real products.
 
 📍 Israel  ·  📧 [miryamizadka@gmail.com](mailto:miryamizadka@gmail.com)  ·  💼 [LinkedIn](https://www.linkedin.com/in/miryam-zadka/)
 
@@ -9,11 +9,11 @@ Currently building features end-to-end across **web (React, ASP.NET Core)** and 
 
 ## What I'm working on
 
-🤖 **GPT-4 Conversational AI Agent** at bpreven — a live digital-health platform. Structured patient intake, secure SQL persistence, production-grade error handling.
+🤖 **GPT Conversational AI Agent** at bpreven - a live digital-health platform. Structured patient intake, secure SQL persistence, production-grade error handling.
 
-📱 **Cross-Platform Marketplace App** at SmartApp — sole mobile developer in a cross-functional team. Flutter app for iOS & Android, 10+ production features, JWT-based auth with race-condition-safe token refresh, full RTL/LTR localization.
+📱 **Cross-Platform Marketplace App** at SmartApp - sole mobile developer in a cross-functional team. Flutter app for iOS & Android, 10+ production features, JWT-based auth with race-condition-safe token refresh, full RTL/LTR localization.
 
-🔧 **Interactive Questionnaire Engine** at bpreven — React Flow editor with edit/simulation modes, plus a server-side topological-sort cycle-detection algorithm to validate questionnaire structures before saving.
+🔧 **Interactive Questionnaire Engine** at bpreven - React Flow editor with edit/simulation modes, plus a server-side topological-sort cycle-detection algorithm to validate questionnaire structures before saving.
 
 > The code for these production projects lives in private company repos. Below are open-source projects I've built that you can explore here.
 
