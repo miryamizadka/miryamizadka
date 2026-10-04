@@ -1,61 +1,72 @@
 # Hi, I'm Miryam 👋
 
-**Fullstack & Mobile Developer** with hands-on production experience.
-Currently building features end-to-end across **web (React, ASP.NET Core)** and **mobile (Flutter)** - and integrating **GPT** into real products.
+**AI Engineer · Agentic Systems & LLM Integration · Fullstack**
+
+I build AI systems for production, not demos - where the model advises and plain code holds the authority, so autonomy limits are *provable rather than probable*.
 
 📍 Israel  ·  📧 [miryamizadka@gmail.com](mailto:miryamizadka@gmail.com)  ·  💼 [LinkedIn](https://www.linkedin.com/in/miryam-zadka/)
 
 ---
 
-## What I'm working on
-
-🤖 **GPT Conversational AI Agent** at bpreven - a live digital-health platform. Structured patient intake, secure SQL persistence, production-grade error handling.
-
-📱 **Cross-Platform Marketplace App** at SmartApp - sole mobile developer in a cross-functional team. Flutter app for iOS & Android, 10+ production features, JWT-based auth with race-condition-safe token refresh, full RTL/LTR localization.
-
-🔧 **Interactive Questionnaire Engine** at bpreven - React Flow editor with edit/simulation modes, plus a server-side topological-sort cycle-detection algorithm to validate questionnaire structures before saving.
-
-> The code for these production projects lives in private company repos. Below are open-source projects I've built that you can explore here.
-
----
-
 ## Featured Projects
 
-### 🚗 [Smart Car Wash Pro 2.0](https://github.com/miryamizadka/Smart-Car-Wash-backend)
-End-to-end booking platform for mobile car-wash services. Solo build.
-- **Backend:** Node.js, Express, SQLite, JWT auth, Socket.io for real-time tracking
-- **Smart scheduling:** Haversine distance + 2-scenario assignment algorithm (closest available unit / soonest-free unit)
-- **Automated PDF invoices** via Puppeteer
-- Live order tracking dashboard for admins
-- 🔗 [Frontend repo](https://github.com/miryamizadka/Smart-Car-Wash-frontend)
+### 🤖 [ApprovalFlow](https://github.com/miryamizadka/invoice-approval-workflow) - AI-governed invoice approval platform
+9 event-driven microservices where a LangGraph agent recommends and a deterministic router decides.
 
-### 📚 [Digital Library System](https://github.com/miryamizadka/digital-library-system)
-A C# console application demonstrating **7 GoF design patterns** in a single coherent domain: Adapter, Bridge, Composite, Decorator, Flyweight, Proxy, Facade. Built with SOLID principles.
+- **Provable autonomy ceiling** - tests force the agent to approve at 100% confidence and inject adversarial prompts; the router still escalates to a human.
+- **RAG over company policy** - a deterministic floor of always-included rules plus TF-IDF retrieval, so the agent sees and cites only the relevant clauses.
+- **Payment saga** with compensation, idempotency and ETag concurrency - no double payments, no negative budgets.
+- **One distributed trace** across the whole async journey (Dapr → Jaeger), verified by script.
+- JWT RBAC · bulkhead & throttling · CI/CD to GHCR · 600+ tests
 
-### 🎓 [Grade Management System](https://github.com/miryamizadka/Grade-management-system)
-ASP.NET Core REST API for student grade management. Role-based access control, custom exception middleware, externalized configuration via IOptions, dependency injection throughout.
+`Python` `FastAPI` `LangGraph` `Dapr` `Redis` `PostgreSQL` `Traefik` `Jaeger` `Docker` `GitHub Actions`
+
+### 🧭 [Bug Triage Workflow](https://github.com/miryamizadka/bug-triage-workflow) - agentic triage pipeline
+The same "model proposes, code decides" principle, on a second framework.
+
+- An LLM classifies bug reports into a strict Pydantic schema; deterministic red-flag rules override it on security, data-loss and outage signals.
+- Routing logic testable with no API key · LLM eval set · PII-free audit log · human-in-the-loop gates · CI on every push
+
+`Microsoft Agent Framework` `Groq` `Pydantic` `Docker` `GitHub Actions`
 
 ---
 
-## Tech I work with
+## In production
 
-**Languages:** TypeScript · JavaScript · C# · Dart · Python · Java · C++ · SQL
+🏥 **GPT-4 intake agent** - bpreven, 2025. A conversational agent in a live digital-health platform serving real patients: structured questionnaires and free-form conversation within clinical boundaries, persisted as structured Q&A for clinician review.
 
-**Web:** React · Redux · RTK Query · React Flow · ASP.NET Core · .NET · Node.js · Express · REST APIs · Entity Framework · SQL Server · MongoDB
+🔧 **Questionnaire flow engine** - bpreven, 2025. A React Flow editor with edit and simulation modes, backed by server-side topological-sort cycle detection.
 
-**Mobile:** Flutter · Dart · Provider · Firebase · RTL/LTR Localization · Push Notifications
+📱 **Marketplace app** - SmartApp, current. Sole mobile developer in a cross-functional team: Flutter for iOS & Android, 10+ production features, race-condition-safe token refresh, full RTL/LTR localization.
 
-**AI:** OpenAI API · GPT-4 · LLM Integration · Prompt Engineering
+> Production code lives in private company repos.
 
-**Tools:** Git · GitHub · Docker · VS Code · Visual Studio · Android Studio
+---
+
+## More projects
+
+- 🚗 **[Smart Car Wash Pro 2.0](https://github.com/miryamizadka/Smart-Car-Wash-backend)** - solo-built booking platform: Node.js/Express, real-time tracking with Socket.io, Haversine-based unit assignment, automated PDF invoices. [Frontend](https://github.com/miryamizadka/Smart-Car-Wash-frontend)
+- 📚 **[Digital Library System](https://github.com/miryamizadka/digital-library-system)** - 7 GoF design patterns in one coherent C# domain, built on SOLID.
+- 🎓 **[Grade Management System](https://github.com/miryamizadka/Grade-management-system)** - ASP.NET Core REST API with role-based access control and custom exception middleware.
+
+---
+
+## Tech
+
+**AI:** LangGraph · Microsoft Agent Framework · OpenAI API / GPT-4 · RAG · structured output · evals · guardrails · human-in-the-loop
+
+**Architecture:** Microservices · Event-driven · Dapr · Sagas & compensation · Idempotency · JWT/RBAC · distributed tracing · CI/CD
+
+**Languages & frameworks:** Python · TypeScript · C# · Dart · SQL · FastAPI · ASP.NET Core · Node.js · React · Redux · Flutter
+
+**Data & tools:** PostgreSQL · SQL Server · Redis · Docker · Git · GitHub Actions
 
 ---
 
 ## Background
 
-- **Software Engineering Diploma** — Israeli Ministry of Labor (MAHAT). GPA: 96. Final Project: 100/100.
-- **KamaTech Excellence Program** — algorithms, data structures, advanced mathematics, ML, computer vision, deep learning.
+- **Software Engineering Diploma** - MAHAT (Israeli Ministry of Labor) · GPA 96 · Final project 100/100
+- **AI Engineering & Microservice Architecture** - ZioNet, 2026
+- **KamaTech Excellence Program** - algorithms, ML, computer vision, deep learning
 
----
-
-*Currently exploring opportunities in Fullstack, Mobile, or AI-integrated engineering roles.*
+*Open to AI Engineer, Backend and Fullstack roles where AI meets real production systems.*
